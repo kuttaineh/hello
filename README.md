@@ -17,8 +17,8 @@ comm "My name is $0. What's your name?"
 read usersname
 comm "Hello $usersname"
 ```
-Press return ( on some keyboards it's labled Enter ).
-Then press the keyboard combo: [control]^[D] <- this key combination prints the end of file (eof) character.
+* Press return ( on some keyboards it's labled Enter ).
+* Press the keyboard combo: [control]^[D] <- this key combination prints the end of file (eof) character.
 
 #### Make the file executable
 by inputting the following command:
@@ -33,4 +33,5 @@ chmod +x hello.zsh
 ```
 cat>>hello.zsh
 ```
-Then press return, followed by [control]^[D] ( on some keyboards it's abbreviated ctrl )
+* Press return.
+* Press [control]^[D] ( on some keyboards it's abbreviated ctrl ).
