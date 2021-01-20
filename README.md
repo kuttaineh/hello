@@ -1,7 +1,7 @@
 # hello
 first zsh script
 
-into any terminal, type:
+#### Into any terminal, type:
 ```
 cat>hello.zsh 
 ```
@@ -15,18 +15,18 @@ comm "My name is $0. What's your name?"
 read usersname
 comm "Hello $usersname"
 ```
-press return; then press the keyboard combo: [control]^[D] <- end of file (eof) character.
+Press return; then press the keyboard combo: [control]^[D] <- end of file (eof) character.
 
-now, input the following command:
+Now, make the script executable by inputting the following command:
 ```
 chmod +x hello.zsh
 ```
-To run:
+#### To run:
 ```
 ./hello.zsh
 ```
-To add new lines:
+#### To add new lines:
 ```
 cat>>hello.zsh
 ```
-followed by [control]^[D] ( on some keyboards it's abbreviated ctrl )
+Then press return, followed by [control]^[D] ( on some keyboards it's abbreviated ctrl )
