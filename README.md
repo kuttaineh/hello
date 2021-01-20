@@ -3,7 +3,7 @@ first zsh script
 
 paste into your shell:
 ```
-cat hello.zsh 
+cat>hello.zsh 
 #!/bin/zsh
 comm() { print $1; say $1; }
 comm "hello, there!"
@@ -23,3 +23,8 @@ To run:
 ```
 ./hello.zsh
 ```
+To add new lines:
+```
+cat>>hello.zsh
+```
+followed by control D (some keyboard it's abbreviated ctrl)
