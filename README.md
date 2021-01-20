@@ -27,4 +27,4 @@ To add new lines:
 ```
 cat>>hello.zsh
 ```
-followed by control D (some keyboard it's abbreviated ctrl)
+followed by control D ( on some keyboards it's abbreviated ctrl )
