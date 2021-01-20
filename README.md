@@ -6,9 +6,9 @@ paste into your shell:
 cat>hello.zsh 
 #!/bin/zsh
 comm() { print $1; say $1; }
-comm "hello, there!"
+comm "hi there!"
 
-comm "My name is $0. What is your name?"
+comm "My name is $0. What's your name?"
 read usersname
 comm "Hello $usersname"
 ```
