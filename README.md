@@ -3,7 +3,7 @@ first zsh script
 
 #### Into any terminal, type:
 ```
-cat>hello.zsh 
+cat>hello.zsh #this opens a new file named 'hello.zsh' for writing
 ```
 Copy the following and paste it into your terminal shell window:
 ```
@@ -18,8 +18,8 @@ comm "Hello $usersname"
 Press return ( on some keyboards it's labled Enter );
 then press the keyboard combo: [control]^[D] <- this key combination prints the end of file (eof) character.
 
-# Make file executable
-Inputting the following command:
+#### Make the file executable
+by inputting the following command:
 ```
 chmod +x hello.zsh
 ```
