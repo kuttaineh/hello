@@ -3,8 +3,10 @@ first zsh script
 
 #### Into any terminal, type:
 ```
-cat>hello.zsh #this opens a new file named 'hello.zsh' for writing
+cat>hello.zsh 
 ```
+^this opens a new file named 'hello.zsh' for writing
+
 Copy the following and paste it into your terminal shell window:
 ```
 #!/bin/zsh
