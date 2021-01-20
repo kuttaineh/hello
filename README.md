@@ -1,9 +1,12 @@
 # hello
 first zsh script
 
-paste into your shell:
+into any terminal, type:
 ```
 cat>hello.zsh 
+```
+paste into your shell:
+```
 #!/bin/zsh
 comm() { print $1; say $1; }
 comm "hi there!"
