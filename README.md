@@ -18,7 +18,7 @@ read usersname
 comm "Hello $usersname"
 ```
 * Press [return] ( on some keyboards the key is labled Enter ).
-* Press the keyboard combo: [control]^[D] <- this key combination prints the end of file (eof) character.
+* Press the keyboard combo [control]^[D] <- this key combination prints the end of file (eof) character.
 
 #### Make the file executable
 by entering the following command:
