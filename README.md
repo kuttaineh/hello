@@ -6,7 +6,7 @@ first zsh script
 cat>hello.zsh 
 ```
 ^this opens a new file named 'hello.zsh' for writing
-
+* Press [return]
 Copy the following text and paste it into the open file in your terminal shell window:
 ```
 #!/bin/zsh
@@ -17,7 +17,7 @@ comm "My name is $0. What's your name?"
 read usersname
 comm "Hello $usersname"
 ```
-* Press [return] ( on some keyboards it's labled Enter ).
+* Press [return] ( on some keyboards the key is labled Enter ).
 * Press the keyboard combo: [control]^[D] <- this key combination prints the end of file (eof) character.
 
 #### Make the file executable
@@ -25,6 +25,7 @@ by entering the following command:
 ```
 chmod +x hello.zsh
 ```
+* Press [return].
 #### To run:
 ```
 ./hello.zsh
