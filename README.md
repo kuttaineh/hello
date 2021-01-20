@@ -15,8 +15,7 @@ comm "My name is $0. What's your name?"
 read usersname
 comm "Hello $usersname"
 ```
-press the keyboard combo: control D
-^end of file (eof) character.
+press return; then press the keyboard combo: [control]^[D] <- end of file (eof) character.
 
 now, input the following command:
 ```
@@ -30,4 +29,4 @@ To add new lines:
 ```
 cat>>hello.zsh
 ```
-followed by control D ( on some keyboards it's abbreviated ctrl )
+followed by [control]^[D] ( on some keyboards it's abbreviated ctrl )
