@@ -7,7 +7,7 @@ cat>hello.zsh
 ```
 ^this opens a new file named 'hello.zsh' for writing
 * Press [return]
-Copy the following text and paste it into the open file in your terminal shell window:
+* Copy the following text and paste it into the open file in your terminal shell window:
 ```
 #!/bin/zsh
 comm() { print $1; say $1; }
