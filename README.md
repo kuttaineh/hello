@@ -7,7 +7,7 @@ cat>hello.zsh
 ```
 ^this opens a new file named 'hello.zsh' for writing
 
-Copy the following text and paste it into your terminal shell window:
+Copy the following text and paste it into the open file in your terminal shell window:
 ```
 #!/bin/zsh
 comm() { print $1; say $1; }
@@ -21,7 +21,7 @@ comm "Hello $usersname"
 * Press the keyboard combo: [control]^[D] <- this key combination prints the end of file (eof) character.
 
 #### Make the file executable
-by inputting the following command:
+by entering the following command:
 ```
 chmod +x hello.zsh
 ```
@@ -29,6 +29,7 @@ chmod +x hello.zsh
 ```
 ./hello.zsh
 ```
+* Press [return].
 #### To add new lines to the script:
 ```
 cat>>hello.zsh
