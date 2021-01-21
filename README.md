@@ -5,8 +5,8 @@ first zsh script
 ```
 cat>hello.zsh 
 ```
-What you input next is redirected to a file named 'hello.zsh'.
 * Press [return] ( on some keyboards the key is labeled Enter ).
+What you input next is redirected to a file named 'hello.zsh'.
 * Copy the following text and paste it into the terminal:
 ```
 #!/bin/zsh
