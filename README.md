@@ -13,9 +13,9 @@ What you input next, upon receiving eof, will be redirected to a file named 'hel
 comm() { print $1; say $1; }
 comm "hi there!"
 
-comm "My name is $0. I see your username is $USER. What shall I call you?"
-read usersname
-comm "Hello $usersname"
+comm "My name is $0. I see you login as is $USER. What shall I call you?"
+read name
+comm "Hello $name"
 ```
 * Press [return].
 * Press the keyboard combo [control]^[D] <- this key combination prints the end of file (eof) character.
