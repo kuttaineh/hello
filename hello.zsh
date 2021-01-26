@@ -1,7 +1,7 @@
 #!/bin/zsh
-comm() { print $1; say $1; }
-comm "hi there!"
+utter() { print $1; say $1; }
+utter "hi there!"
 
-comm "My name is $0. I see you login as $USER. What shall I call you?"
+utter "My name is $0. I see you login as $USER. What shall I call you?"
 read name
-comm "Hello $name"
+utter "Hello $name"
