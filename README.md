@@ -10,12 +10,12 @@ What you input next, upon receiving eof, will be redirected to a file named 'hel
 * Copy the following text and paste it into the terminal:
 ```
 #!/bin/zsh
-comm() { print $1; say $1; }
-comm "hi there!"
+utter() { print $1; say $1; }
+utter "hi there!"
 
-comm "My name is $0. I see you login as $USER. What shall I call you?"
+utter "My name is $0. I see you login as $USER. What shall I call you?"
 read name
-comm "Hello $name"
+utter "Hello $name"
 ```
 * Press [return].
 * Press the keyboard combo [control]^[D] <- this key combination prints the end of file (eof) character.
