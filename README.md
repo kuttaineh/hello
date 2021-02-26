@@ -1,6 +1,9 @@
 # hello
 first zsh script
 
+## requirement
+a modern macOS or Linux computer computer, else utilize these steps to equip your Windows 10 https://www.maketecheasier.com/install-zsh-and-oh-my-zsh-windows10/
+
 #### Into any terminal, type:
 ```
 cat>hello.zsh 
