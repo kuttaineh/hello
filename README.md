@@ -2,9 +2,8 @@
 first zsh script
 
 ## requirement
-a modern macOS or Linux computer computer, else utilize these steps to equip your Windows 10 https://www.maketecheasier.com/install-zsh-and-oh-my-zsh-windows10/ (you can stop once you've got your zsh command prompt; installing Oh My Zsh is not necessary...)
+a modern macOS or Linux computer computer, else utilize these steps to equip your Windows 10 https://www.howtogeek.com/258518/how-to-use-zsh-or-another-shell-in-windows-10/. Under macOS, Terminal is most recently found under Applications > Utilities)
 
-Upon launching Terminal (under macOS this is most recently found under Applications > Utilities)
 #### Into any terminal, type:
 ```
 cat>hello.zsh 
