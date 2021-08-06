@@ -5,6 +5,8 @@ first zsh script
 ### Required
 /bin/zsh upon a macOS or Linux computer, else use these steps to equip your Windows 10 https://www.howtogeek.com/258518/how-to-use-zsh-or-another-shell-in-windows-10/. Under macOS, Terminal is most recently found under Applications > Utilities folder (sometimes under the 'Other' folder).
 
+Most Apple and GNU/Linux operating system distributions come with zsh preinstalled. There are many ways to test to see if you've already got it; at command line, for example, type: `ls /bin/zsh` or, type: `which zsh`. If installed the response will be simply, /bin/zsh or something similiar. 
+
 #### Into any terminal, type:
 ```
 cat>hello.zsh 
