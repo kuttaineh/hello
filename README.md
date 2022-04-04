@@ -24,7 +24,7 @@ read name
 utter "Hello $name"
 ```
 * Press [return].
-* Press the keyboard combo [control]^[D] <- this key combination prints the end of file (eof) character.
+* Press the keyboard combo [control]^[D] <- this key combination transmits the end of file (eof) signal.
 
 > What if say, which is a common text-to-speech synthesizer on Apple computers which is also available for GNU/Linux & even Windows, is not installed? How would I modify the script to cut out the calls to ``say``?  Here's an example of the same script minus calls to say.  Notice the utter function has been removed:
 ```
