@@ -51,4 +51,5 @@ chmod +x hello.zsh
 cat>>hello.zsh
 ```
 * Press [return].
+* YOUR LINES HERE
 * Press [control]^[D] ( on some keyboards [control] is labeled [ctrl] ).
