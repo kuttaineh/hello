@@ -64,10 +64,10 @@ sleep 1
 print -n "Fiend: "; ./fiend $name
 utter "Well, until next time!"
 ```
+* Press [control]^[D] ( on some keyboards [control] is labeled [ctrl] ).
 > Note: If you decide to go with the sample lines above you'll need to make fiend executable.
 
 ```
 chmod +x fiend
 ```
 > If you're running hello script out of a PATH'd directory then fiend will need to be moved to that directory. For instance, like this: ```sudo mv fiend /usr/local/bin```.
-* Press [control]^[D] ( on some keyboards [control] is labeled [ctrl] ).
