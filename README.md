@@ -43,11 +43,11 @@ chmod +x hello.zsh
 * Press [return].
 #### To run, type:
 ```
-./hello.zsh
+zsh hello.zsh
 ```
 * Press [return].
 
-> Note: If you don't want to have to type ./...zsh everytime then you can, at anytime, copy the script into a location such as /usr/local/bin/hello
+> Note: If you don't want to have to type ```zsh hello.zsh``` or ```./hello.zsh``` everytime then you can, at anytime, copy the script into a pathed location, such as /usr/local/bin, like this: ```sudo cp -a hello.zsh /usr/local/bin/hello```. From then on, all you have to type to launch the program is, simply: ```hello```.
 #### To add new lines to the script:
 ```
 cat>>hello.zsh
