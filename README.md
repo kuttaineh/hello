@@ -17,7 +17,7 @@ What you input next, upon receiving eof, will be redirected to a file named 'hel
 ```
 #!/bin/zsh
 utter() { print $1; say $1; }
-utter "hi there!"
+utter "Hi there!"
 
 utter "My name is $0. I see you log in as $USER. What shall I call you?"
 read name
@@ -29,7 +29,7 @@ utter "Hello $name"
 > What if say, which is a common text-to-speech synthesizer on Apple computers which is also available for GNU/Linux & even Windows, is not installed? How would I modify the script to cut out the calls to ``say``?  Here's an example of the same script minus calls to say.  Notice the utter function has been removed:
 ```
 #!/bin/zsh
-print "hi there!"
+print "Hi there!"
 
 print "My name is $0. I see you log in as $USER. What shall I call you?"
 read name
@@ -52,4 +52,13 @@ cat>>hello.zsh
 ```
 * Press [return].
 * YOUR LINES HERE
+Here are some example lines:
+```
+utter "Would you like to meet my fiend?"
+sleep 1
+utter "Good, here's fiend."
+sleep 1
+print -n "Fiend: "; ./fiend $name
+utter "Well, until next time!"
+```
 * Press [control]^[D] ( on some keyboards [control] is labeled [ctrl] ).
