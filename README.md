@@ -46,6 +46,8 @@ chmod +x hello.zsh
 ./hello.zsh
 ```
 * Press [return].
+
+> Note: If you don't want to have to type ./...zsh everytime then you can, at anytime, copy the script into a location such as /usr/local/bin/hello
 #### To add new lines to the script:
 ```
 cat>>hello.zsh
