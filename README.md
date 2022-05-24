@@ -52,6 +52,7 @@ cat>>hello.zsh
 ```
 * Press [return].
 * YOUR LINES HERE
+
 Here are some example lines:
 ```
 utter "Would you like to meet my fiend?"
