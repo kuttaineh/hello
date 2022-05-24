@@ -65,6 +65,7 @@ print -n "Fiend: "; ./fiend $name
 utter "Well, until next time!"
 ```
 > Note: If you decide to go with the sample lines above you'll need to make fiend executable.
+
 > If you're running hello out of a PATH'd directory then fiend will need to move to that directory.
 ```
 chmod +x fiend
