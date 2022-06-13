@@ -1,0 +1,7 @@
+#!/bin/bash
+utter() { printf "$1"; say --voice=Fred "$1"; }
+utter "What do you want? "
+sleep 3
+utter "$1, I have no more time for you right now."
+#utter "Better luck next time, $1."
+echo
