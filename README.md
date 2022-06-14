@@ -75,4 +75,5 @@ utter "Well, until next time!"
 ```
 chmod +x fiend
 ```
+* Press [return].
 > If you're running hello script out of a PATH'd directory then fiend will need to be moved to that directory. For instance, like this: ```sudo mv fiend /usr/local/bin```. If you do move fiend to a pathed directory then you'll need to remove the leading ```./``` from the front of the call of the command on the line which contains the call (```print -n "Fiend: "; ./fiend $name```).
