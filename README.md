@@ -41,6 +41,7 @@ by inputting the following command:
 chmod +x hello.zsh
 ```
 * Press [return].
+> The above command ```chmod``` with switch ```+x``` just changed the mode of the file to be executable.
 #### To run, type:
 ```
 zsh hello.zsh
