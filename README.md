@@ -3,11 +3,11 @@ first zsh script
 (pronounced [Z shell](https://en.wikipedia.org/wiki/Z_shell))
 
 ### Required
-Zsh upon a macOS or Linux computer, else use these steps to equip your Windows 10 https://www.howtogeek.com/258518/how-to-use-zsh-or-another-shell-in-windows-10/. 
+Zsh upon a macOS or Linux computer, else use these steps to equip your Windows 10 https://www.howtogeek.com/258518/how-to-use-zsh-or-another-shell-in-windows-10/. And to get an equvalent to Apple's ```say``` upon Windows save [a copy](https://github.com/p-groarke/wsay/releases) of p-groarke's ```wsay.exe```. Then, if using the Windows operating system, modify the code below replacing any references to ```say``` with ```wsay```.
 
 Under macOS, Terminal is most recently found under Applications > Utilities folder (sometimes under the 'Other' folder).
 
-> Most Apple and GNU/Linux operating system distributions come with zsh preinstalled. There are many ways to test to see if you've already got it; at command line, for example, type: `ls /bin/zsh` or, type: `which zsh`. If installed the response will be simply, /bin/zsh or something similiar. 
+> Most Apple and GNU/Linux operating system distributions come with zsh preinstalled. There are many ways to test to see if you've already got it; at command line, for example, type: `ls /bin/zsh` or, type: `which zsh`. If installed the response will be simply, /bin/zsh or something similiar.
 
 #### Into any terminal, type:
 ```
