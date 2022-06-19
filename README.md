@@ -5,6 +5,9 @@ first zsh script
 ### Required
 Zsh upon a macOS or Linux computer else, use [these steps](https://www.howtogeek.com/258518/how-to-use-zsh-or-another-shell-in-windows-10/) to equip Windows 10. Upon Windows: to get an equvalent to Apple's ```say``` multivoice synthesizer [download](https://github.com/p-groarke/wsay/releases) p-groarke's ```wsay.exe```. Then, when using the Windows operating system, modify the code below replacing any references to ```say``` with ```wsay```. If you're using a GNU/Linux operating system and ```say``` is not preinstalled then use your package manager and seek community assistance if additional help is needed.
 
+### To begin:
+Launch a [Terminal emulator](https://en.wikipedia.org/wiki/Terminal#Software).
+
 Under macOS, Terminal is most recently found under Applications > Utilities folder (sometimes under the 'Other' folder).
 
 > Most Apple and GNU/Linux operating system distributions come with zsh preinstalled. There are many ways to test to see if you've already got it; at command line, for example, type: `ls /bin/zsh` or, type: `which zsh`. If installed the response will be simply, /bin/zsh or something similiar.
