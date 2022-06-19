@@ -49,7 +49,7 @@ chmod +x hello.zsh
 zsh hello.zsh
 ```
 * Press [return].
-#### Alternatively, since you've set the file as executable, type:
+#### Alternatively, since you've set the file as executable, you can also type just:
 ```
 ./hello.zsh
 ```
