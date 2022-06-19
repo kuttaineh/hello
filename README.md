@@ -3,7 +3,7 @@ first zsh script
 (pronounced [Z shell](https://en.wikipedia.org/wiki/Z_shell))
 
 ### Required
-Zsh upon a macOS or Linux computer, else use [these steps](https://www.howtogeek.com/258518/how-to-use-zsh-or-another-shell-in-windows-10/) to equip your Windows 10. Upon Windows: to get an equvalent to Apple's ```say``` [download](https://github.com/p-groarke/wsay/releases) p-groarke's ```wsay.exe```. Then, when using the Windows operating system, modify the code below replacing any references to ```say``` with ```wsay```. If you're using a GNU/Linux operating system and ```say``` is not preinstalled then use your package manager and seek community assistance if additional help is needed.
+Zsh upon a macOS or Linux computer else, use [these steps](https://www.howtogeek.com/258518/how-to-use-zsh-or-another-shell-in-windows-10/) to equip Windows 10. Upon Windows: to get an equvalent to Apple's ```say``` multivoice synthesizer [download](https://github.com/p-groarke/wsay/releases) p-groarke's ```wsay.exe```. Then, when using the Windows operating system, modify the code below replacing any references to ```say``` with ```wsay```. If you're using a GNU/Linux operating system and ```say``` is not preinstalled then use your package manager and seek community assistance if additional help is needed.
 
 Under macOS, Terminal is most recently found under Applications > Utilities folder (sometimes under the 'Other' folder).
 
