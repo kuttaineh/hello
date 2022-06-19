@@ -14,6 +14,7 @@ Under macOS, Terminal is most recently found under Applications > Utilities fold
 cat>hello.zsh 
 ```
 * Press [return] ( on some keyboards the key is labeled Enter ).
+
 What you input next, upon receiving eof, will be redirected to a file named 'hello.zsh'.
 * Copy the following text and paste it into the terminal:
 ```
