@@ -1,6 +1,6 @@
 # hello
-first zsh script
-(pronounced [Z shell](https://en.wikipedia.org/wiki/Z_shell))
+
+After following these instructions you will have written a complete working computer program. It's a scripted program — which is the easiest kind. The scripting language is of the [shell](https://youtu.be/XvDZLjaCJuw) type and the dialect of shell is [Z shell](https://en.wikipedia.org/wiki/Z_shell).
 
 ### Required
 Zsh upon a macOS or Linux computer else, use [these steps](https://www.howtogeek.com/258518/how-to-use-zsh-or-another-shell-in-windows-10/) to equip Windows 10. Upon Windows: to get an equvalent to Apple's ```say``` multivoice synthesizer [download](https://github.com/p-groarke/wsay/releases) p-groarke's ```wsay.exe```. Then, when using the Windows operating system, modify the code below replacing any references to ```say``` with ```wsay```. If you're using a GNU/Linux operating system and ```say``` is not preinstalled then use your package manager and seek community assistance if additional help is needed.
