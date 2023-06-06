@@ -1,7 +1,19 @@
 #!/bin/bash
 utter() { printf "$1"; say --voice=Fred "$1"; }
-utter "What do you want? "
-sleep 3
-utter "$1, I have no more time for you right now."
-#utter "Better luck next time, $1."
+#utter "What do you want? "
+sleep 2
+utter "I am $0."; echo
+sleep 1
+utter "My purpose here is to devoir your soul. "
+while read -n1 -s -p "What do you want? "; do
+	case $REPLY in
+		1) utter "response one " ;;
+		2) utter "response two " ;;
+		q) printf "$0 quits you. "; break ;;
+		*) utter "$1, try again. " ;;
+	esac
+done
+#utter "$1, I have no more time for you right now."
+utter "Anything else? "
+utter "Better luck next time, $1."
 echo
