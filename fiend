@@ -1,19 +1,56 @@
 #!/bin/bash
 utter() { printf "$1"; say --voice=Fred "$1"; }
-#utter "What do you want? "
+utter "What do you want? "
 sleep 2
 utter "I am $0."; echo
 sleep 1
-utter "My purpose here is to devoir your soul. "
-while read -n1 -s -p "What do you want? "; do
+while read -n1 -s -p " "; do
 	case $REPLY in
-		1) utter "response one " ;;
-		2) utter "response two " ;;
+		1) utter "1" ;;
+		2) utter "2" ;;
+		3) utter "3" ;;
+		4) utter "4" ;;
+		5) utter "5" ;;
+		6) utter "6" ;;
+		7) utter "7" ;;
+		8) utter "8" ;;
+		9) utter "9" ;;
+		=) utter "=" ;;
 		q) printf "$0 quits you. "; break ;;
+		w) utter "w" ;;
+		e) utter "e" ;;
+		r) utter "r" ;;
+		t) utter "t" ;;
+		y) utter "y" ;;
+		u) utter "u" ;;
+		i) utter "i" ;;
+		o) utter "o" ;;
+		p) utter "p" ;;
+		[) utter "[" ;;
+		]) utter "]" ;;
+		a) utter "a" ;;
+		s) utter "s" ;;
+		d) utter "d" ;;
+		f) utter "f" ;;
+		g) utter "g" ;;
+		h) utter "h" ;;
+		i) utter "i" ;;
+		j) utter "j" ;;
+		k) utter "k" ;;
+		l) utter "l" ;;
+		z) utter "z" ;;
+		x) utter "x" ;;
+		c) utter "c" ;;
+		v) utter "v" ;;
+		b) utter "b" ;;
+		n) utter "n" ;;
+		m) utter "m" ;;
+		,) utter "," ;;
+		.) utter "." ;;
+		/) utter "/" ;;
 		*) utter "$1, try again. " ;;
 	esac
 done
-#utter "$1, I have no more time for you right now."
 utter "Anything else? "
 utter "Better luck next time, $1."
 echo
