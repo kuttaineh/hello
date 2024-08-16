@@ -68,21 +68,21 @@ cat>>hello.zsh
 
 Here are some example lines:
 ```
-utter "Would you like to meet my fiend?"
+utter "Would you like to meet Fred?"
 sleep 1
-utter "Good, here's fiend."
+utter "Good, here's Fred."
 sleep 1
-print -n "Fiend: "; ./fiend $name
+print -n "Fred: "; ./Fred $name
 utter "Well, until next time!"
 ```
 * Press [return].
 * Press [control]^[D] ( on some keyboards [control] is labeled [ctrl] ).
-> Note: If you decide to go with the sample lines above you'll need to make fiend executable.
+> Note: If you decide to go with the sample lines above you'll need to make Fred executable.
 
 ```
-chmod +x fiend
+chmod +x Fred
 ```
 * Press [return].
-> If you're running hello script out of a PATH'd directory then fiend will need to be moved to that directory. For instance, like this: ```sudo mv fiend /usr/local/bin```. 
+> If you're running hello script out of a PATH'd directory then Fred will need to be moved to that directory. For instance, like this: ```sudo mv Fred /usr/local/bin```. 
 > 
-> If you do move fiend to a pathed directory then you'll need to remove the leading ```./``` from the front of the call to the command on the line which contains the call. In other words, modify the line which looks like ```print -n "Fiend: "; ./fiend $name``` to ```print -n "Fiend: "; fiend $name```.
+> If you do move Fred to a pathed directory then you'll need to remove the leading ```./``` from the front of the call to the command on the line which contains the call. In other words, modify the line which looks like ```print -n "Fred: "; ./Fred $name``` to ```print -n "Fred: "; Fred $name```.
