@@ -3,14 +3,14 @@
 After following these instructions you will have written a complete working computer program. It's a scripted program — which is the easiest kind. The scripting language is of the [shell](https://youtu.be/XvDZLjaCJuw) type and the dialect of shell is [Z shell](https://en.wikipedia.org/wiki/Z_shell).
 
 ### Required
+> Most contemporary Apple and GNU/Linux operating system distributions come with zsh preinstalled. There are many ways to test to see if you've already got it; at command line, for example, type: `ls /bin/zsh` or, type: `which zsh`. If installed the response will be simply, /bin/zsh or something similiar.
+
 Zsh upon a macOS or Linux computer else, use [these steps](https://www.howtogeek.com/258518/how-to-use-zsh-or-another-shell-in-windows-10/) to equip Windows 10. Upon Windows: to get an equvalent to Apple's ```say``` multi-voice speech synthesizer [download](https://github.com/p-groarke/wsay/releases) p-groarke's ```wsay.exe```. Then, when using the Windows operating system, modify the code below replacing any references to ```say``` with ```wsay```. If you're using a GNU/Linux operating system and either ```say``` or ```zsh``` is not preinstalled then use your package manager and seek community assistance if additional help is needed.
 
 ### To begin:
 Launch a [Terminal emulator](https://en.wikipedia.org/wiki/Terminal#Software).
 
-Under macOS, Terminal is most recently found under Applications > Utilities folder (sometimes under the 'Other' folder).
-
-> Most Apple and GNU/Linux operating system distributions come with zsh preinstalled. There are many ways to test to see if you've already got it; at command line, for example, type: `ls /bin/zsh` or, type: `which zsh`. If installed the response will be simply, /bin/zsh or something similiar.
+Under macOS (in Finder), Terminal is most recently found under the Applications > Utilities subfolder (sometimes it is in the 'Other' subfolder).
 
 #### Into any terminal, type:
 ```
