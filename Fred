@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 utter() { printf "$1"; say --voice=Fred "$1"; }
 utter "What do you want? "
 sleep 2
