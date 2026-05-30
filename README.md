@@ -76,7 +76,7 @@ print -n "Fred: "; ./Fred $name
 utter "Well, until next time!"
 ```
 * Press [return].
-* Press [control]^[D] ( on some keyboards [control] is labeled [ctrl] ).
+* Press [control][D] ( NOTE: on some keyboards [control] is labeled [ctrl] ).
 > Note: If you decide to use the sample lines above, you'll need to make Fred executable.
 
 ```
